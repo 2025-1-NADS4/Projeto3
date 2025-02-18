@@ -7,7 +7,9 @@ import Ubericon from '../Pictures/Ubericon.png';
 import InDriveicon from '../Pictures/InDriveicon.png';
 import novenoveicon from '../Pictures/novenoveicon.jpg';
 import TransportCard from '../Components/TransportCard';
-import exemplo from '../Pictures/exemplo.png';
+import mockuporiginal from '../Pictures/mockuporiginal.png';
+import dinheiroicon from '../Pictures/dinheiroicon.png';
+
 
 function Home() {
   const [originAddress, setOriginAddress] = useState('');
@@ -74,19 +76,28 @@ function Home() {
         </div>
       </section>
 
+    
       {/* Seção 2: Sobre a Empresa */}
-      <section className="section section-about">
-        <div className="content">
-          <h2>Sobre Nós</h2>
-          <p>
-            Na FastPrice, reunimos informações das principais plataformas de transporte, como 
-            <span className="highlight"> Uber</span>, 
-            <span className="highlight"> 99</span> e 
-            <span className="highlight"> InDrive</span>, para oferecer a você a melhor comparação de preços.
-            Nosso objetivo é facilitar sua mobilidade e ajudar você a tomar a decisão mais vantajosa.
-          </p>
-        </div>
-      </section>
+<section className="section section-about">
+  <div className="about-container">
+    {/* Coluna esquerda: Imagem */}
+    <div className="about-image">
+      <img src={dinheiroicon} alt="Dinheiro Icon" />
+    </div>
+    {/* Coluna direita: Texto */}
+    <div className="about-text">
+      <h2>Sobre Nós</h2>
+      <p>
+        Na FastPrice, reunimos informações das principais plataformas de transporte, como 
+        <span className="highlight"> Uber</span>, 
+        <span className="highlight"> 99</span> e 
+        <span className="highlight"> InDrive</span>, para oferecer a você a melhor comparação de preços.
+        Nosso objetivo é facilitar sua mobilidade e ajudar você a tomar a decisão mais vantajosa.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Seção 2.5: Destaque */}
       <section className="section section-highlight">
@@ -94,7 +105,7 @@ function Home() {
           <div className="row align-items-center">
             {/* Coluna para a imagem */}
             <div className="col-md-6 highlight-image">
-              <img src={exemplo} alt="Destaque FastPrice" className="img-fluid" />
+              <img src={mockuporiginal} alt="Destaque FastPrice" className="img-fluid" />
             </div>
             {/* Coluna para o texto */}
             <div className="col-md-6 highlight-text">
