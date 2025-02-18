@@ -39,10 +39,130 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
-
 }
+
+
+/* Coluna para a imagem */
+
+/* Container da seção About para layout em duas colunas (sempre em linha) */
+.about-container {
+  display: flex;
+  flex-direction: row; /* Lado a lado em desktops */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 40px;
+}
+
+/* Em telas menores, a direção muda para coluna */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+/* Coluna para a imagem */
+.about-image {
+  flex: 0 0 40%;  /* Ocupa 40% da largura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 85%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Coluna para o texto */
+.about-text {
+  flex: 1;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Para telas médias (até 768px) */
+@media (max-width: 768px) {
+  .about-text {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .about-text h2 {
+    font-size: 2rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/* Para telas pequenas (até 480px) */
+@media (max-width: 480px) {
+  .about-text h2 {
+    font-size: 1.75rem;
+  }
+  .about-text p {
+    font-size: 0.9rem;
+  }
+}
+
+.about-image {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsividade para telas médias e pequenas: a imagem ocupará toda a largura */
+@media (max-width: 768px) {
+  .about-image {
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    padding: 0 10px;
+  }
+}
+
+
+
+
 
 .section-highlight {
   padding: 60px;
@@ -55,13 +175,24 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .highlight-image img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
+
+
+@media (max-width: 768px) {
+  .highlight-image img {
+    width: 140%;
+    margin: 0;
+    margin-left: -20%; 
+  }
+}
+
+
+
 
 .highlight-image img:hover {
   transform: scale(1.03);
@@ -93,12 +224,56 @@ body {
   background: linear-gradient(90deg, rgb(12, 0, 32) 0%, rgb(0, 0, 0) 35%, rgb(3, 1, 16));
 }
 
-.section-footer {
-  background-color: #1a1a1a;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 0.9rem;
+.section-pricing h2 {
+  font-size: 3rem;           
+  font-weight: 700;           
+  color: #ffffff;             
+  text-transform: uppercase; 
+  letter-spacing: 2px;         
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #6200ff; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+  transition: color 0.3s ease;
 }
+
+.section-pricing h2:hover {
+  color: #9d4fff;             
+          
+;
+}
+
+/* Para telas até 1200px */
+@media (max-width: 1200px) {
+  .section-pricing h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Para telas até 768px */
+@media (max-width: 768px) {
+  .section-pricing h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom-width: 2px;
+  }
+}
+
+/* Para telas até 480px */
+@media (max-width: 480px) {
+  .section-pricing h2 {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding-bottom: 6px;
+    border-bottom-width: 2px;
+  }
+}
+
 
 /* Container para centralizar o conteúdo */
 .content {
@@ -339,29 +514,86 @@ body {
   background: rgba(98, 0, 255, 0.2);
 }
 
+
+
 /* ===============================
    Footer
    =============================== */
-.section-footer {
-  background-color: #000;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 0.9rem;
-}
+   .section-footer {
 
-/* Responsividade do Footer */
-@media (max-width: 768px) {
-  .section-footer {
-    font-size: 0.8rem;
-    padding: 15px 0;
+    background-size: cover;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
   }
-}
-@media (max-width: 480px) {
-  .section-footer {
-    font-size: 0.75rem;
-    padding: 10px 0;
+  
+  /* Um overlay sutil para melhorar a legibilidade do texto */
+  .section-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
   }
-}
+  
+  /* Container interno do footer */
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Bloco de contato */
+  .footer-contact,
+  .footer-partners {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  /* Títulos com destaque */
+  .footer-contact h3,
+  .footer-partners h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #6200ff;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Informações de contato */
+  .footer-contact p,
+  .footer-partners p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-contact, .footer-partners {
+      text-align: center;
+    }
+  }
+
+
+
+
+
 
 /* ===============================
    Animações com Keyframes
@@ -426,10 +658,13 @@ body {
     padding: 30px 15px;
   }
   .highlight-title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .highlight-subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .highlight-text p{
+    font-size: 0.8rem;
   }
   /* Formulário em telas menores: inputs empilhados e seta vertical */
   .imput-form {
