@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# FECAP - Fundação de Comércio Álvares Penteado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+</p>
 
-## Available Scripts
+# FastPrice
 
-In the project directory, you can run:
+## Alvacoders
 
-### `npm start`
+## Integrantes: <a href="">Filipi Pires</a>, <a href="">Ryan Oliveira</a>, <a href="">João Albuquerque</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Professores Orientadores:  <a href="">Aimar Lopes</a>,<a href="">Ronaldo Araujo</a> , <a href="">Eduardo Savino</a>, <a href="">Lucy Mari</a> e <a href="">Edson Barbeiro</a> 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Descrição
+<br><br>
+<p align="center">
+<img src="src/Frontend/ThunderCat - 20052024 (1)/src/assets/Logo Escrito 2 Azul PNG.png" alt="ThunderCat" border="0">
+  <br><br>
+  Projeto by <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-NADS2/Projeto6">ThunderCat</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-1-NADS2/Projeto6">Matheus Moura, Filipi Pires e João Albuquerque</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+</p>
+O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nos <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas (ONU)</a>. Com isso, desenvolvemos um site que visa facilitar o processo de adoção de pets, criando uma rede social específica para esse propósito.
 
-### `npm test`
+Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, mas focamos na seguinte:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br><br>
+ODS 3: Saúde e Bem-Estar
+<br><br>
+ODS 3.4: reduzir em um terço a mortalidade prematura por doenças não transmissíveis ( DNTs ) por meio de prevenção e tratamento, e promover a saúde mental e o bem-estar.
+<br><br>
+Com todos os nossos objetivos definidos, iniciamos o desenvolvimento do site!
 
-### `npm run build`
+## 🛠 Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nesta etapa, vamos demonstrar como programar nosso frontend e backend, que estão localizados na pasta src.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Desenvolvemos nosso front-end no Figma para definir a aparência da página e, em seguida, implementamos no React todas as páginas da rede social para adoção de pets.
+Desenvolvemos nosso banco de dados para armazenar os dados dos usuários e postagens.
+Desenvolvemos nossa API em C#, que define como os dados dos usuários e postagens vão se comportar na nossa rede social.
+Configuramos um servidor na Azure para hospedar nosso projeto e facilitar ajustes de qualquer lugar.
+Conectamos o front-end com o back-end, integramos ao nosso servidor e também ao Netlify.
+Abaixo, na configuração de desenvolvimento, estão os componentes que utilizamos para montar nosso projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br><br>
+## 💻 Configuração para Desenvolvimento
+<br><br>
+<p align="center">
+<!-- <img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0"> -->
+  
+No nosso projeto, utilizamos os seguintes elementos para criar nossa rede social!
+Utilizamos três tipos de tecnologia para garantir que nosso projeto seja desenvolvido com sucesso:
 
-### `npm run eject`
+- React e Node.js
+- Web API em C#
+- Banco de Dados em C#
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Servidor da Azure
+- Netlify para conectar todas as partes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Com todos os sensores devidamente conectados, conseguimos colocar nosso site no ar com sucesso.
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br><br>
+##🗃 Histórico de Lançamentos
+<br><br>
+- **0.2.2 - 22/05/2024**
+  - Montamos a versão atual do projeto.
+  - MUDANÇA: Conectamos a API ao banco de dados e ao nosso React.
 
-## Learn More
+- **0.2.1 - 10/05/2024**
+  - MUDANÇA: Desenvolvemos a nossa API.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **0.2.0 - 01/05/2024**
+  - MUDANÇA: Desenvolvemos o feed infinito.
+  - ADD: Desenvolvemos o nosso banco de dados.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **0.1.1 - 20/04/2024**
+  - CONSERTADO: Convertamos o nosso projeto para React.
 
-### Code Splitting
+- **0.1.0 - 15/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
+  - MUDANÇA: Fizemos o HTML do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **0.0.1 - 10/04/2024**
+  - Desenvolvemos o protótipo no Figma do nosso projeto.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📋 Licença/License
 
-### Making a Progressive Web App
+  Projeto by <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-NADS2/Projeto6">ThunderCat</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-1-NADS2/Projeto6">Matheus Moura, Filipi Pires e João Albuquerque</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎓 Referências
