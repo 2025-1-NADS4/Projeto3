@@ -78,23 +78,24 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 <br><br>
 ## 🗃 Histórico de Lançamentos
 <br><br>
-- ** 0.1 - **
+- **0.1**  
   - Idealizamos o sistema completo
 
-- ** 0.1.1 - **  
-  - Começamos a pensar em quais ferramentas utilizariamos
+- **0.1.1**  
+  - Começamos a pensar em quais ferramentas utilizaríamos
 
-- **0.1.2 - **
+- **0.1.2**  
   - Pesquisar sobre o projeto  
 
-- ** 0.2 - **
+- **0.2**  
   - Começamos a montar o Front-End
 
-- ** 0.2.1 - **  
-  - Começamos a Idealizar a Tela
+- **0.2.1**  
+  - Começamos a idealizar a tela
 
-- ** 0.2.2 - **
-  - Começamos a projetar o Back-End   
+- **0.2.2**  
+  - Começamos a projetar o Back-End
+ 
 
 ## 📋 Licença/License
 
