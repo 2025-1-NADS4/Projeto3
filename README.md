@@ -21,23 +21,16 @@ O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto 
 
 Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, mas focamos na seguinte:
 
-<br><br>
-ODS 3: Saúde e Bem-Estar
-<br><br>
-ODS 3.4: reduzir em um terço a mortalidade prematura por doenças não transmissíveis ( DNTs ) por meio de prevenção e tratamento, e promover a saúde mental e o bem-estar.
-<br><br>
-Com todos os nossos objetivos definidos, iniciamos o desenvolvimento do site!
+
 
 ## 🛠 Instalação
 
 Nesta etapa, vamos demonstrar como programar nosso frontend e backend, que estão localizados na pasta src.
 
-Desenvolvemos nosso front-end no Figma para definir a aparência da página e, em seguida, implementamos no React todas as páginas da rede social para adoção de pets.
-Desenvolvemos nosso banco de dados para armazenar os dados dos usuários e postagens.
-Desenvolvemos nossa API em C#, que define como os dados dos usuários e postagens vão se comportar na nossa rede social.
-Configuramos um servidor na Azure para hospedar nosso projeto e facilitar ajustes de qualquer lugar.
-Conectamos o front-end com o back-end, integramos ao nosso servidor e também ao Netlify.
-Abaixo, na configuração de desenvolvimento, estão os componentes que utilizamos para montar nosso projeto.
+Desenvolvimento front-end 
+Desenvolvimento banco de dados 
+Desenvolvimento  API em Python
+Conectamos o front-end com o back-end, integramos ao nosso servidor e também ao Netlify para postar no rede.
 
 <br><br>
 ## 💻 Configuração para Desenvolvimento
@@ -45,12 +38,12 @@ Abaixo, na configuração de desenvolvimento, estão os componentes que utilizam
 <p align="center">
 <!-- <img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0"> -->
   
-No nosso projeto, utilizamos os seguintes elementos para criar nossa rede social!
+No nosso projeto, utilizamos os seguintes elementos para criar nosso sitema!
 Utilizamos três tipos de tecnologia para garantir que nosso projeto seja desenvolvido com sucesso:
 
 - React e Node.js
-- Web API em C#
-- Banco de Dados em C#
+- Web API em Python
+- Banco de Dados 
 
 Além disso, utilizamos as seguintes ferramentas para colocar nosso site no ar:
 
@@ -64,9 +57,22 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 ## 🗃 Histórico de Lançamentos
 <br><br>
 - **0.1 - **
-  - Montamos a versão do GitHub.
-  
+  - Idealizamos o sistema completo
 
+- **0.1.1 - **  
+  - Começamos a pensar em quais ferramentas utilizariamos
+
+- **0.1.2 - **
+  - Pesquisar sobre o projeto  
+
+- **0.2 - **
+  - Começamos a montar o Front-End
+
+- **0.2.1 - **  
+  - Começamos a Idealizar a Tela
+
+- **0.2.2 - **
+  - Começamos a projetar o Back-End   
 
 ## 📋 Licença/License
 
