@@ -13,13 +13,35 @@
 ## Professores Orientadores:  <a href="">Aimar Lopes</a>, <a href="">Edson Barbeiro</a>, <a href="">Eduardo Savino</a>, <a href="">Lucy Mari</a> e <a href="">Ronaldo Araujo</a>
 
 ## Descrição
-<br><br>
-<p align="center">
-  <br><br>
- 
-O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nos <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas (ONU)</a>. Com isso, desenvolvemos um site que visa facilitar o processo de adoção de pets, criando uma rede social específica para esse propósito.
 
-Nosso projeto foi planejado para atender aos Objetivos de Desenvolvimento Sustentável da ONU. A primeira etapa após definir o projeto foi identificar quais objetivos ele atenderia. Descobrimos que nosso projeto está alinhado com vários objetivos, mas focamos na seguinte:
+Nosso objetivo é revolucionar a forma como os usuários escolhem serviços de 
+transporte, garantindo que sempre encontrem a melhor opção em termos de 
+custo-benefício. Para isso, estamos desenvolvendo o FatsPrice, um site 
+inteligente que compara em tempo real os preços das corridas em diferentes 
+plataformas de transporte.   
+
+Atuamos no setor de transporte, onde identificamos um espaço no mercado: a 
+dificuldade dos usuários em comparar os preços de corridas entre diferentes 
+aplicativos, como Uber e 99. Nossa missão é transformar a experiência do 
+usuário, fornecendo uma plataforma intuitiva, confiável e eficiente, que o ajude 
+a tomar decisões rápidas, econômicas e inteligentes.  
+
+Acreditamos na inovação e agilidade como diferencial competitivo e, por isso, 
+estamos investindo na integração de IA para oferecer um serviço que garanta o 
+melhor preço em tempo real.  
+
+Além do segmento de transporte rápido, planejamos expandir nossa solução 
+para o mercado aéreo, permitindo que os usuários comparem preços de 
+passagens e encontrem o melhor preço para suas viagens.  
+
+Nosso compromisso é com a transparência, acessibilidade e inovação, 
+proporcionando uma ferramenta fácil de usar, rápida e confiável. Ao garantir 
+que nossos usuários tenham acesso às melhores opções de transporte de 
+maneira simples.  
+
+Com um modelo de negócios baseado em planos de assinatura e parcerias 
+estratégicas, nossa visão é nos tornarmos referência no setor, oferecendo a 
+melhor plataforma de comparação de preços.
 
 
 
@@ -56,22 +78,22 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 <br><br>
 ## 🗃 Histórico de Lançamentos
 <br><br>
-- **0.1 - **
+- ** 0.1 - **
   - Idealizamos o sistema completo
 
-- **0.1.1 - **  
+- ** 0.1.1 - **  
   - Começamos a pensar em quais ferramentas utilizariamos
 
 - **0.1.2 - **
   - Pesquisar sobre o projeto  
 
-- **0.2 - **
+- ** 0.2 - **
   - Começamos a montar o Front-End
 
-- **0.2.1 - **  
+- ** 0.2.1 - **  
   - Começamos a Idealizar a Tela
 
-- **0.2.2 - **
+- ** 0.2.2 - **
   - Começamos a projetar o Back-End   
 
 ## 📋 Licença/License
