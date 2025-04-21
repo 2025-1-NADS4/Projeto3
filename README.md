@@ -95,6 +95,16 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 
 - **0.2.2**  
   - Começamos a projetar o Back-End
+
+- **0.3**  
+  - Idealização da IA e Machine Learning
+
+- **0.3.1**  
+  - Começamos a criar IA e Machine Learning
+
+- **0.3.2**  
+  - Começamos a integrar a IA com o Back-End do projeto
+
  
 
 ## 📋 Licença/License
