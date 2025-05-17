@@ -1,0 +1,37 @@
+{
+  "uberX": {
+    "price": "R$ 12,00",
+    "time": "8 min",
+    "driver": "Carlos"
+  },
+  "uberComfort": {
+    "price": "R$ 15,00",
+    "time": "10 min",
+    "driver": "João"
+  },
+  "uberBlack": {
+    "price": "R$ 25,00",
+    "time": "12 min",
+    "driver": "Felipe"
+  },
+  "99POP": {
+    "price": "R$ 11,00",
+    "time": "9 min",
+    "driver": "Ana"
+  },
+  "99Comfort": {
+    "price": "R$ 14,00",
+    "time": "11 min",
+    "driver": "Marcos"
+  },
+  "99Taxi": {
+    "price": "R$ 13,00",
+    "time": "10 min",
+    "driver": "Luana"
+  },
+  "indriveComum": {
+    "price": "R$ 10,00",
+    "time": "8 min",
+    "driver": "Pedro"
+  }
+}

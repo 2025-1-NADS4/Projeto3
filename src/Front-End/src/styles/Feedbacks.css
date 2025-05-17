@@ -1,0 +1,163 @@
+/* Fundo, espaçamentos e cores */
+.feedbacks {
+  padding: 80px 0; /* Aumentando o espaçamento para dar mais destaque */
+  background: linear-gradient(135deg, #090021, #1a0030); /* Gradiente suave para fundo */
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Título da seção - mais chamativo */
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 50px; /* Mais espaçamento para destaque */
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Efeito de sombra mais intenso */
+  animation: slideIn 1s ease-out; /* Animação de entrada */
+  font-family: 'Arial', sans-serif; /* Fonte normal, mas chamativa */
+}
+
+/* Animação de deslizamento do título */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Container dos cards de feedback */
+.feedbacks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  animation: fadeIn 1s ease-out; /* Animação para os cards de feedback */
+}
+
+/* Animação de fade-in dos cards */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Estilo dos cards de feedback */
+.feedback-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px 20px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Sombra mais forte para destacar */
+  backdrop-filter: blur(10px); /* Desfoque no fundo para efeito futurista */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efeito de hover nos cards */
+.feedback-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6); /* Sombra mais intensa ao passar o mouse */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Imagem do cliente - Efeito de hover */
+.feedback-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #6200ff;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efeito de hover nas imagens */
+.feedback-image:hover {
+  transform: scale(1.15); /* Aumenta a imagem suavemente */
+}
+
+.feedback-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Texto do feedback */
+.feedback-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-style: italic;
+  color: #f1f1f1;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+/* Efeito de hover no texto */
+.feedback-text:hover {
+  opacity: 1;
+  color: #ffffff; /* Mudança de cor no hover */
+}
+
+/* Nome do cliente */
+.feedback-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover no nome */
+.feedback-name:hover {
+  color: #6200ff; /* Mudança de cor ao passar o mouse */
+  transform: translateY(-5px); /* Leve elevação ao passar o mouse */
+}
+
+/* Estilo das estrelas */
+.star {
+  font-size: 30px;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.star.filled {
+  color: #f39c12;
+}
+
+/* Adicionando um efeito de partículas flutuantes no fundo */
+.feedbacks::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png') repeat;
+  opacity: 0.1;
+  z-index: -1;
+  pointer-events: none;
+}
+

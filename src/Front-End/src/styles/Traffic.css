@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700&display=swap');
+
+/* Global styles para aplicar a fonte e resetar margens */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #fff;
+}
+
+/* Container principal: fundo preto, centralizado, com espaçamento e efeito de fundo */
+.traffic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cabeçalho com gradiente sofisticado, sombra e espaçamento */
+.traffic-header {
+  width: 100%;
+  max-width: 800px;
+  background: linear-gradient(135deg, #222, #444);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.traffic-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.travel-time {
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+/* Container principal para manter o globo centralizado e responsivo */
+.globe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0d0d0d; /* Mantém o fundo escuro */
+}
+
+/* Ajuste do canvas para responsividade total */
+.custom-globe canvas {
+  width: 100% !important; /* Ocupa todo o container */
+  height: auto !important;
+  max-width: 100%; /* Garante que nunca ultrapasse a tela */
+  max-height: 100vh; /* Ajusta dinamicamente para caber na tela */
+  object-fit: contain;
+}
+
+/* Ajuste para telas médias (tablets e celulares grandes) */
+@media (max-width: 768px) {
+  .custom-globe canvas {
+    width: 80% !important;
+    max-width: 100%;
+  }
+}
+
+/* Ajuste específico para telas menores */
+@media (max-width: 425px) {
+  .custom-globe canvas {
+    width: 70% !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .custom-globe canvas {
+    width: 425px !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .custom-globe canvas {
+    width: 60% !important;
+    max-width: 100%;
+  }
+}
+
+
+/* Botão chamativo com transições suaves e efeito hover */
+.traffic-btn {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.traffic-btn:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.traffic-btn:active {
+  transform: scale(0.98);
+}
+
+/* Container do mapa: borda sutil, sombra e fundo escuro */
+.map-wrapper {
+  width: 600px;
+  height: 600px;
+  max-width: 90vw;
+  max-height: 90vw;
+  border: 2px solid #555;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #111;
+  position: relative;
+  animation: fadeIn 1s forwards;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Configurações do mapa */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.leaflet-container:active {
+  transform: scale(1.02);
+}
+
+/* Mensagem de erro em destaque */
+.traffic-error {
+  margin-top: 10px;
+  padding: 10px;
+  color: #ff4d4d;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsividade: para telas menores */
+@media (max-width: 768px) {
+  .traffic-header {
+    padding: 20px;
+  }
+  
+  .traffic-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .travel-time {
+    font-size: 1.2rem;
+  }
+  
+  .map-wrapper {
+    width: 90vw;
+    height: 90vw;
+  }
+  
+  .traffic-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}
+
+
+/* Estilos responsivos para a página */
+@media (max-width: 768px) {
+  .traffic-header h2 {
+    font-size: 1.5rem;
+  }
+  .travel-time {
+    font-size: 1rem;
+  }
+}
+
+/* Canvas do globo */
+canvas {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Garante que o canvas não ultrapasse a largura */
+  max-height: 100%; /* Garante que o canvas não ultrapasse a altura */
+  object-fit: contain; /* Ajusta o conteúdo sem distorcer */
+}
+
+
+/* Animação de pulso no contorno */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 20px 5px rgba(76, 161, 175, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px 15px rgba(76, 161, 175, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 20px 5px rgba(76, 161, 175, 0.4);
+  }
+}

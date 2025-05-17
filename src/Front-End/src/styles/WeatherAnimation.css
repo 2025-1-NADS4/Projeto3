@@ -1,0 +1,219 @@
+
+/* Certifique-se de que a seção de destaque seja relativa */
+.section-highlight {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Container da animação do clima fixado no canto inferior esquerdo */
+.weather-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  overflow: visible; /* Garante que elementos fora não sejam cortados */
+}
+
+/* Botão "X" estilizado e posicionado para fora */
+.weather-close {
+  position: absolute;
+  top: -15px; /* Move para fora da div */
+  right: -15px; /* Move para fora da div */
+  width: 30px;
+  background: transparent;
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Aumenta a área de clique sem afetar o botão */
+.weather-close::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+
+  top: -5px;
+  left: -5px;
+  background: transparent;
+}
+
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  .weather-close {
+    font-size: 16px;
+    top: -8px;
+    right: -8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-close {
+    font-size: 14px;
+    top: -6px;
+    right: -6px;
+  }
+}
+
+
+/* Ícone do clima */
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: opacity 0.5s ease;
+}
+
+/* Mensagem do clima */
+.weather-message {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: opacity 0.5s ease;
+}
+
+/* Timer de contagem */
+.timer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* GIFs para cada estado – ajuste os caminhos conforme necessário */
+.sunny-icon {
+  background-image: url('../Pictures/sol.gif');
+}
+
+.cloudy-icon {
+  background-image: url('../Pictures/chuva.gif');
+}
+
+.storm-icon {
+  background-image: url('../Pictures/tempestade.gif');
+}
+
+/* Efeitos de fade */
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* Popup animado 3D */
+.weather-popup {
+  position: fixed; /* Fixa o popup no centro da tela */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.popup-content {
+  background: rgba(0, 0, 0, 0.95);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: popup-appear 0.6s ease-out;
+}
+
+/* Adiciona o GIF dentro do popup */
+.popup-gif {
+  width: 100px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animação de fade in para o popup */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Animação 3D para o popup */
+@keyframes popup-appear {
+  0% {
+    transform: perspective(400px) rotateX(-90deg) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  .weather-container {
+    width: 100px;
+ 
+    bottom: 10px;
+    left: 10px;
+  }
+  .weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .weather-message {
+    font-size: 12px;
+  }
+  .timer {
+    font-size: 10px;
+  }
+  .popup-gif {
+    width: 80px;
+  }
+  .weather-close {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    top: -8px;
+    right: -8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-container {
+    width: 80px;
+    bottom: 5px;
+    left: 5px;
+  }
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .weather-message {
+    font-size: 10px;
+  }
+  .timer {
+    font-size: 9px;
+  }
+  .popup-gif {
+    width: 60px;
+  }
+  .weather-close {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    top: -6px;
+    right: -6px;
+  }
+}
