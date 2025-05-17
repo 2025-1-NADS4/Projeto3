@@ -79,13 +79,13 @@ Com todos os sensores devidamente conectados, conseguimos colocar nosso site no 
 ## 🗃 Histórico de Lançamentos
 <br><br>
 - **0.1** – Planejamento e Idealização do Sistema
- -0.1.1 – Definição do Escopo do Projeto
+ - 0.1.1 – Definição do Escopo do Projeto
 Discutimos e documentamos os principais objetivos e funcionalidades esperadas do sistema, considerando as necessidades do público-alvo e os desafios que pretendemos resolver.
 
- -0.1.2 – Escolha das Tecnologias
+ - 0.1.2 – Escolha das Tecnologias
 Avaliamos diferentes linguagens, frameworks e ferramentas para definir a stack ideal. Consideramos usabilidade, performance e integração futura.
 
- -0.1.3 – Pesquisa de Referências
+ - 0.1.3 – Pesquisa de Referências
 Estudamos sistemas similares, soluções existentes no mercado e possíveis abordagens de arquitetura, interface e experiência do usuário.
 
 - **0.2** – Início do Desenvolvimento
