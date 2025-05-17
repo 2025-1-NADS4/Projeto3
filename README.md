@@ -85,25 +85,25 @@ Discutimos e documentamos os principais objetivos e funcionalidades esperadas do
   - 0.1.2 – Escolha das Tecnologias
 Avaliamos diferentes linguagens, frameworks e ferramentas para definir a stack ideal. Consideramos usabilidade, performance e integração futura.
 
- - 0.1.3 – Pesquisa de Referências
+  - 0.1.3 – Pesquisa de Referências
 Estudamos sistemas similares, soluções existentes no mercado e possíveis abordagens de arquitetura, interface e experiência do usuário.
 
 - **0.2** – Início do Desenvolvimento
- -0.2.1 – Protótipos e Design da Interface (Front-End)
+  - 0.2.1 – Protótipos e Design da Interface (Front-End)
 Criamos os primeiros esboços das telas principais usando ferramentas como Figma ou Canva. Estabelecemos a identidade visual do sistema.
 
- -0.2.2 – Estruturação do Front-End
+  - 0.2.2 – Estruturação do Front-End
 Começamos a programar as telas, componentes, navegação e responsividade utilizando frameworks como React ou Vue (dependendo da stack escolhida).
 
- -0.2.3 – Projeto do Back-End
+  - 0.2.3 – Projeto do Back-End
 Iniciamos a definição da estrutura de banco de dados, criação de APIs e escolha do modelo de arquitetura (MVC, por exemplo). Linguagens como Node.js, Python (Django/Flask), entre outras, foram consideradas.
 
 - **0.3** – Inteligência Artificial e Machine Learning
- -0.3.1 – Planejamento da IA
+  - 0.3.1 – Planejamento da IA
 Identificamos onde a IA será aplicada no projeto, quais dados ela precisa e qual será seu papel (recomendações, análises preditivas, etc.).
 
- -0.3.2 – Desenvolvimento dos Modelos de IA
+  - 0.3.2 – Desenvolvimento dos Modelos de IA
 Iniciamos a criação dos algoritmos de IA/ML com ferramentas como Scikit-learn, TensorFlow ou PyTorch, preparando os dados e testando modelos iniciais.
 
- -0.3.3 – Integração com o Sistema
+  - 0.3.3 – Integração com o Sistema
 Desenvolvemos a comunicação entre o Back-End e os modelos de IA, garantindo que o sistema consiga fazer previsões ou análises em tempo real conforme necessário.
