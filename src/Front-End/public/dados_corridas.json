@@ -1,0 +1,59 @@
+{
+  "uberX": [
+    {
+   "Distancia (km)": "16.294",
+      "price": "42",
+      "DiaSemana": "1"
+  },
+    {
+      "Distancia (km)": "16.294",
+      "price": "42",
+      "DiaSemana": "1"
+    },
+    {
+      "Distancia (km)": "11.644",
+      "price": "17.5",
+      "DiaSemana": "1"
+    },
+    {
+      "Distancia (km)": "27.762",
+      "price": "40",
+      "DiaSemana": "1"
+    },
+    {
+      "Distancia (km)": "14.777",
+      "price": "23",
+      "DiaSemana": "1"
+    },
+    {
+      "Distancia (km)": "18.658",
+      "price": "36",
+      "DiaSemana": "1"
+    },
+    {
+      "Distancia (km)": "12.492",
+      "price": "29.5",
+      "DiaSemana": "1"
+    }
+          ],
+
+  "99Taxi": [
+  {
+    "Distancia (km)": "16.294",
+      "price": "42",
+      "DiaSemana": "1"
+  },
+ {
+  "Distancia (km)": "16.294",
+      "price": "42",
+      "DiaSemana": "1"
+  },
+  {
+    "Distancia (km)": "16.294",
+      "price": "42",
+      "DiaSemana": "1"
+  }]
+
+
+  }
+
